@@ -2,7 +2,7 @@
 
 > Offline wallet for TRON protocol based on trxplorer.io API : https://api.trxplorer.io
 
-## Features
+## Features
 
 TRXWallet is a javascript wallet for the TRON blockchain protocol. The main idea is to always keep your TRON private key safe and always offline. You can create a single or multiple wallets using a password that will be used to encrypt you private key and to sign your transactions (sending TRX, voting, freezing/unfreezing TRX). Your private key is never revealed by the application.
 
