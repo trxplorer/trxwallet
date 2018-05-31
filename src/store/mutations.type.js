@@ -1,0 +1,13 @@
+export const SET_WALLETS = 'setWallets'
+export const SET_WALLET = 'setWallet'
+export const SET_ACCOUNT = 'setAccount'
+export const SET_TRANSACTION = 'setTransaction'
+export const SET_TRANSACTIONS = 'setTransactions'
+export const SET_VOTES = 'setVotes'
+export const SET_FREEZE_HISTORY = 'setFreezeHistory'
+
+export const SET_WITNESSES = 'setWitnesses'
+export const SET_TOKENS = 'setTokens'
+export const SET_TRANSFERS = 'setTransfers'
+export const FETCH_START = 'fetchStart'
+export const FETCH_END = 'fetchEnd'
