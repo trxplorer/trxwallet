@@ -57,7 +57,7 @@
   import TopInfoComponent from '../components/TopInfo'
   import {FETCH_FREEZE_HISTORY} from '../store/action.type'
   import {TRX_SUN} from '../Constants'
-  import TRXWalletConfig from 'TRXWalletConfig'
+  import TRXWalletConfig from '../config'
 
 
   export default {

@@ -1,5 +1,5 @@
 import TronCli from 'tron-api-cli';
-import TRXWalletConfig from 'TRXWalletConfig'
+import TRXWalletConfig from '../config'
 
 const tronCli = new TronCli({endpoint:TRXWalletConfig.trxplorer.api})
 

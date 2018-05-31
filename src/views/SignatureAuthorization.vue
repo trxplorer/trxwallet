@@ -153,7 +153,7 @@
   import TransactionService from '../service/TransactionService'
   import moment from 'moment'
   import {TRX_SUN,TX_TYPE} from '../Constants'
-  import TRXWalletConfig from 'TRXWalletConfig'
+  import TRXWalletConfig from '../config'
 
 
   export default {

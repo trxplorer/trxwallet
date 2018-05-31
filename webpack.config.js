@@ -84,7 +84,7 @@ module.exports = {
     alias: {
       'vue$': 'vue/dist/vue.esm.js',
       jquery: "jquery/src/jquery",
-      'TRXWalletConfig': path.resolve(__dirname, 'config', process.env.NODE_ENV)
+      'conf': path.resolve(__dirname, 'config')
     },
     extensions: ['*', '.js', '.vue', '.json']
   },
@@ -117,4 +117,15 @@ if (process.env.NODE_ENV === 'production') {
       minimize: true
     })
   ])
+}else if (process.env.NODE_ENV === 'development'){
+  // http://vue-loader.vuejs.org/en/workflow/production.html
+  module.exports.plugins = (module.exports.plugins || []).concat([
+    new webpack.DefinePlugin({
+      'process.env': {
+        NODE_ENV: '"development"'
+      }
+    })
+  ])
+
+
 }

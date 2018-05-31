@@ -111,7 +111,7 @@
   import TopInfoComponent from '../components/TopInfo'
   import {FETCH_WITNESSES} from '../store/action.type'
   import {TRX_SUN} from '../Constants'
-  import TRXWalletConfig from 'TRXWalletConfig'
+  import TRXWalletConfig from '../config'
   import $ from "jquery";
   import 'semantic-ui/dist/components/sticky'
 import { setTimeout } from 'timers';

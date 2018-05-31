@@ -59,7 +59,7 @@
   import TopInfoComponent from '../components/TopInfo'
   import {FETCH_VOTES} from '../store/action.type'
   import {TRX_SUN} from '../Constants'
-  import TRXWalletConfig from 'TRXWalletConfig'
+  import TRXWalletConfig from '../config'
 
 
   export default {
