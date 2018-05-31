@@ -1,6 +1,6 @@
 # trxwallet
 
-> Offline wallet for TRON protocol based on trxplorer.io API : https://api.trxplorer.io
+> Offline wallet for TRON protocol based on trxplorer.io API using https://github.com/trxplorer/tron-api-cli
 
 ## Features
 
