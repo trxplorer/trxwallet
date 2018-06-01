@@ -61,6 +61,22 @@
     mocha "^5.1.0"
     qs "^6.5.1"
 
+"@tronprotocol/wallet-api@git://github.com/nfleury/node-wallet-api#0.0.24-f":
+  version "0.0.35"
+  resolved "git://github.com/nfleury/node-wallet-api#54c1c9d806c4ec3bd4d4f2e3142fd142b80dbc42"
+  dependencies:
+    axios "^0.18.0"
+    chai "^4.1.2"
+    crypto-js "^3.1.9-1"
+    elliptic "^6.4.0"
+    google-protobuf "^3.5.0"
+    grpc "^1.10.0"
+    grpc-caller "^0.4.0"
+    grpc-tools "^1.6.6"
+    js-sha3 "^0.7.0"
+    mocha "^5.1.0"
+    qs "^6.5.1"
+
 "@types/long@^3.0.32":
   version "3.0.32"
   resolved "https://registry.yarnpkg.com/@types/long/-/long-3.0.32.tgz#f4e5af31e9e9b196d8e5fca8a5e2e20aa3d60b69"

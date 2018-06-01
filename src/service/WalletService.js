@@ -3,6 +3,7 @@ import {generateAccount} from '@tronprotocol/wallet-api/src/utils/account'
 import {privateKeyToAddress,isAddressValid} from '@tronprotocol/wallet-api/src/utils/crypto'
 import zxc from 'zxcvbn'
 import CryptoJS from 'crypto-js'
+import Config from '../config'
 
 Lockr.prefix = 'trxwallet_'
 
@@ -11,7 +12,8 @@ export default {
         return zxc(pwd).score
     },
     generate (){
-        return generateAccount()
+
+        return generateAccount(Config.isMainNet)
     },
     addWallet (data){
         try{
@@ -62,11 +64,11 @@ export default {
         return Lockr.smembers("wallets")
     },
     isValidAddress(address){
-        return isAddressValid(address)
+        return isAddressValid(address,Config.isMainNet)
     },
     privateKeyMatchAddress(pkey,address){
         if (pkey && address){
-            return privateKeyToAddress(pkey)===address
+            return privateKeyToAddress(pkey,Config.isMainNet)===address
         }
         return false
     },

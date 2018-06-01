@@ -36,7 +36,7 @@
     "vuex": "^3.0.1",
     "yarn": "^1.6.0",
     "zxcvbn": "^4.4.2",
-    "@tronprotocol/wallet-api":"git://github.com/nfleury/node-wallet-api",
+    "@tronprotocol/wallet-api":"git://github.com/nfleury/node-wallet-api#0.0.24-f",
     "tron-api-cli":"git://github.com/trxplorer/tron-api-cli"
   },
   "browserslist": [
