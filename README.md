@@ -39,3 +39,25 @@ yarn run dev
 yarn run build
 ```
 
+**Changing trxplorer api url**
+
+By default, running 'yarn run dev', will suppose that you have a running instance of , [trxplorer api-serverver](https://github.com/trxplorer/explorer/tree/master/api-server), if you don't want to run a local instance, you can change the configuration of the url located in src/config
+
+``` javascript
+const conf = {
+    "production":{
+        trxplorer:{
+            url:"https://www.trxplorer.io",
+            api:"https://api.trxplorer.io/v1"
+        }
+    },
+    "development":{
+        trxplorer:{
+            url:"http://localhost:8080", 
+            api:"http://localhost:8383/v1" # ===> change this to https://api.trxplorer.io/v1
+        }
+    }
+
+}
+```
+
