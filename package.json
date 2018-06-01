@@ -2,7 +2,7 @@
   "name": "trxwallet",
   "description": "Tron wallet - A safe and secure offline wallet for TRX and tokens on TRON blockchain",
   "keywords":["tron","blockchain","wallet","trx"],
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "tronwallet",
   "private": false,
   "main": "./src/index",
