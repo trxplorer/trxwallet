@@ -16,7 +16,7 @@ Implemented features:
 - Vote for super representative
 - Freeze/Unfreeze
 - Apply to become representative/delegate
-- Transaction signature system that is independant from the application and can be invoked by a third party application (see chrome-extension https://github.com/tronwallet/chrome-extension)
+- Transaction signature system that is independant from the application and can be invoked by a third party application (see chrome-extension https://github.com/trxplorer/chrome-extension)
 - Extensible app: the application can be used as a component and embedded into another app . TRXWallet is currently used into a chrome-extension version, and also in a desktop version of the application (comming soon)
 
 Feature being implemented:
